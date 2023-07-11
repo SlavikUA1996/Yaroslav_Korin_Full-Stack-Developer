@@ -1,2 +1,2 @@
-# Yaroslav_Korin_Full-Stack-Developer
+# Resume_Full-Stack-Developer
  
