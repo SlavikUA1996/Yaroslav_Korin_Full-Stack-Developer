@@ -1,0 +1,248 @@
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(
+    to right top,
+    #d6d3d5,
+    #dcd7dc,
+    #e0dbe3,
+    #e3e0ec,
+    #e4e5f4,
+    #e0e9f9,
+    #dbedfd,
+    #d6f1ff,
+    #ccf5ff,
+    #c1f8ff,
+    #b8fcff,
+    #b1fffa
+  );
+}
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #080808;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  color: #ff6b08;
+  text-decoration: none;
+}
+
+.main-container {
+  text-align: center;
+  animation: gradient 15s ease infinite;
+}
+
+.my-photo {
+  border-radius: 25%;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px r(0 0 0 0.15);
+}
+
+.contacts {
+  text-align: left;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #080808;
+}
+.contacts-link {
+  text-decoration: none;
+  list-style: none;
+}
+
+.icon-svg {
+  fill: #ff6b08;
+}
+
+.tech-skills-title {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0f0101;
+}
+
+.tech-skills-container {
+  text-decoration: none;
+}
+
+.tech-skills-item {
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ff6b08;
+  margin-left: 16px;
+}
+.soft-skills-title {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #080808;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+.soft-skills-item {
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ff6b08;
+  margin-left: 16px;
+}
+
+.about-projects {
+  line-height: 38px;
+}
+
+.projects-link {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ff6b08;
+}
+
+.projects-link:hover,
+.projects-link:focus {
+  transition: color 0.5s 0.02s ease;
+  color: #151414;
+}
+
+.projects-link-github {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.projects-link-github:hover,
+.projects-link-github:focus {
+  transition: color 0.5s 0.02s ease;
+  color: #ff6b08;
+}
+.projects-link {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ff6b08;
+}
+
+.projects-link:hover,
+.projects-link:focus {
+  transition: color 0.5s 0.02s ease;
+  color: #151414;
+}
+
+.projects-link-github {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.projects-link-github:hover,
+.projects-link-github:focus {
+  transition: color 0.5s 0.02s ease;
+  color: #ff6b08;
+}
+
+.tech-name {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.projects-item {
+  font-weight: 700;
+  margin-left: 18px;
+  color: #000000;
+}
+
+.projects-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.project-text {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.projects-conteiner {
+  margin-bottom: 55px;
+}
+
+.profession-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.proffesion-company {
+  font-size: 18px;
+  color: #ff6b08;
+}
+
+.profession-time {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* .profession-divider {
+  color: #000000;
+} */
+
+.profession-duties {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.profession-duties-item {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.education {
+  margin-top: 55px;
+}
+
+.education-item {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
