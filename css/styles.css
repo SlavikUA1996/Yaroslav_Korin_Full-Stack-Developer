@@ -52,9 +52,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .main-container {
   text-align: center;
   animation: gradient 15s ease infinite;
+  margin-right: 50px;
 }
 
 .my-photo {
@@ -76,6 +81,7 @@ a {
   color: #080808;
 }
 .contacts-link {
+  justify-content: center;
   text-decoration: none;
   list-style: none;
 }
@@ -124,6 +130,7 @@ a {
 
 .about-projects {
   line-height: 38px;
+  padding: 0;
 }
 
 .projects-link {
@@ -199,10 +206,6 @@ a {
   font-weight: 400;
 }
 
-.projects-conteiner {
-  margin-bottom: 55px;
-}
-
 .profession-title {
   font-size: 18px;
   line-height: 24px;
@@ -235,10 +238,6 @@ a {
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-}
-
-.education {
-  margin-top: 55px;
 }
 
 .education-item {
